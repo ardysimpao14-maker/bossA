@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss A Works</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+   <nav class="navbar">
+    <div class="logo">Boss A Works</div>
+
+    <!-- Toggle Button -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="skill.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About the Developer</a></li>
+    </ul>
+</nav>
+
+    <main style="height: 100vh; padding: 100px 20px;">
+<h3>Technical Skills</h3>
+
+<li onclick="showSkill('assets/images/basic-skill.jpg')">
+    <p>Basic Computer Skill</p>
+</li>
+
+
+
+<li onclick="showSkill('assets/images/basic-html.jpg')">
+    <p>Basic HTML</p>
+</li>
+
+
+<li onclick="showSkill('assets/images/basic-typingskill.jpg')">
+    <p>Typing Skill</p>
+</li>
+      <!-- Image Viewer -->
+<img id="skillViewer"
+     style="display:none; width:350px; margin-top:20px; border-radius:10px;">
+
+
+        
+        <br>
+        <h3>Tools</h3>
+
+        
+<li onclick="showSkill('assets/images/vscode.jpg')">
+    <p>Visual Studio Code</p>
+</li>
+<li onclick="showSkill('assets/images/notepad.jpg')">
+    <p>NotePad</p>
+</li>
+<li onclick="showSkill('assets/images/canva.jpg')">
+    <p>Canva</p>
+</li>
+             <!-- Image Viewer -->
+<img id="showSkill"
+     style="display:none; width:350px; margin-top:20px; border-radius:10px;">
+        
+        <br>
+       <h3>Soft Skills</h3>
+<li onclick="showSkill('assets/images/communication.jpg')">
+    <p>Communication<p>
+</li>
+       <li onclick="showSkill('assets/images/teamwork.jpg')">
+    <p>Teamwork</p>
+</li>
+       <li onclick="showSkill('assets/images/time.jpg')">
+    <p>Time Management</p>
+</li>
+       <li onclick="showSkill('assets/images/prob.jpg')">
+    <p>Problem-Solving</p>
+</li>
+             <li onclick="showSkill('assets/images/creative.jpg')">
+    <p>Creativity</p>
+</li>
+
+      
+
+       <!-- Image Viewer -->
+<img id="showSkill"
+     style="display:none; width:350px; margin-top:20px; border-radius:10px;">
+
+        <br>
+    </main>
+   
+    <footer class="footer">
+        <p>&copy; 2026 Ardy Blatang. All Rights Reserved.</p>
+    </footer>
+
+    <!-- IMPORTANT: Connect JavaScript -->
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
